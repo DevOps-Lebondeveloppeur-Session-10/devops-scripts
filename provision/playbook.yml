@@ -1,0 +1,11 @@
+
+- name: Provision VPS.
+  hosts: vps
+  become: true
+  roles:
+    - docker
+    - nginx
+    - certbot
+    - mongo
+
+   
