@@ -28,3 +28,6 @@ volumes:
 networks:
   backend-api-net:
     name: backend-api-net                           # Use the bridge driver for the custom network
+
+
+# mongodb://root:pass-123@mongodb:27017/book-store?authSource=admin
